@@ -28,51 +28,51 @@ class HomePage extends Component {
 
         const cities = [
             {
-                id: 1512569,
-                title: 'Tashkent'
-            },
-            {
                 id: 1514588,
-                title: 'Andijon'
+                title: 'Andijan'
             },
             {
                 id: 1217662,
-                title: 'Buxoro'
+                title: 'Bukhara'
             },
             {
-                id: 1513966,
-                title: 'Guliston'
-            },{
+                id: 1484845,
+                title: 'Fergana'
+            },
+            {
                 id: 1513886,
-                title: 'Jizzax'
-            },
-            {
-                id: 1538230,
-                title: 'Zarafshon Shahri'
-            },
-            {
-                id: 1216311,
-                title: 'Qarshi'
-            },
-            {
-                id: 1513131,
-                title: 'Navoiy'
+                title: 'Jizzakh'
+            },{
+                id: 1484843,
+                title: 'Xorazm'
             },
             {
                 id: 1513157,
                 title: 'Namangan'
             },
             {
-                id: 601294,
-                title: 'Nukus'
+                id: 1513131,
+                title: 'Navoiy'
+            },
+            {
+                id: 1114928,
+                title: 'Qashqadaryo'
             },
             {
                 id: 1216265,
                 title: 'Samarqand'
             },
             {
-                id: 1512770,
+                id: 1484840,
                 title: 'Sirdaryo'
+            },
+            {
+                id: 1114926,
+                title: 'Surxondaryo'
+            },
+            {
+                id: 1512569,
+                title: 'Tashkent'
             }
         ];
 
