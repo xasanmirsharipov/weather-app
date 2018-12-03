@@ -55,6 +55,7 @@ export default (state = initialState, action) => {
                 ...state,
                 otherDaysList: {
                     isLoading: false,
+                    // eslint-disable-next-line
                     data: action.payload.list.filter(item => {
                         if(moment.unix(item.dt).format('HH:mm') === '11:00' && moment().format('DD/MM/YYYY') !== moment.unix(item.dt).format('DD/MM/YYYY')){
                             return item
